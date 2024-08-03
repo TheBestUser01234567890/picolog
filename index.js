@@ -25,10 +25,3 @@ const createLog = (namespace = '') => {
 
     return log;
 };
-
-/**
- * @deprecated does nothing
- */
-createLog.enable = createLog.disable = () => {};
-
-module.exports = createLog;
